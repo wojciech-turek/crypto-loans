@@ -1,0 +1,62 @@
+.logo {
+  margin-bottom: 0 !important;
+}
+
+html {
+  max-height: 100vh;
+}
+
+.ui.menu {
+  font-family: Poppins;
+  a.item {
+    color: #121d58;
+    font-size: 14px;
+    &:hover {
+      color: #00cc8f;
+    }
+  }
+  .active.item {
+    color: #00cc8f;
+  }
+  .ui.primary.button {
+    font-family: Lato;
+    background-color: #00b8a8;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #54aa04;
+    }
+  }
+}
+.wrapper {
+  margin-top: 60px;
+}
+
+.main {
+  height: 80vh;
+  &__heading {
+    font-weight: bold;
+    color: #09155a;
+    font-family: Poppins;
+    font-size: 48px;
+  }
+  .ui.button {
+    font-family: Lato;
+    color: white;
+    margin: 12px 20px;
+    background-color: #00b8a8;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: #54aa04;
+    }
+  }
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  transform: translate(0, 0px);
+  svg {
+    display: block;
+  }
+}
