@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Grid } from "semantic-ui-react";
+import { Button, Grid } from "semantic-ui-react";
 import Lottie from "react-lottie";
 import animationData from "../public/72488-loud-speaker-alert.json";
 import Link from "next/link";
